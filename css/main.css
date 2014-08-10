@@ -244,3 +244,42 @@ a:after {
        only screen and (max-width: 767px) {
    .flex-video { padding-top: 0; }
 }
+
+/* ==========================================================================
+   Navbar
+   ========================================================================== */
+
+
+.navbar {
+    width: 100%;
+}
+
+.navbar-default {
+    background: rgba(255,255,255,.85);
+    border: 0;
+    color: #777;
+    text-transform: uppercase;
+    display: inline-block;
+    text-align: center;
+    position: fixed;
+}
+
+.navbar-nav {
+    list-style: none;
+    display: inline-block;
+    float: none;
+    font-size: 1em;
+    font-weight: 700;
+    margin: 0 auto;
+    padding: 0;
+}
+
+.navbar-default .navbar-nav>li>a:focus,.navbar-default .navbar-nav>li>a:hover {
+    background-color: transparent;
+}
+
+.navbar-default .navbar-nav>.active>a,
+.navbar-default .navbar-nav>.active>a:focus,
+.navbar-default .navbar-nav>.active>a:hover {
+    background: 0 0;
+}
