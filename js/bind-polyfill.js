@@ -1,8 +1,3 @@
-/*
- * Polyfill Function.prototype.bind support for otherwise ECMA Script 5 compliant browsers
- * https://developer.mozilla.org/en-US/docs/Web/JavaScript/Reference/Global_Objects/Function/bind#Compatibility
- */
-
 if (!Function.prototype.bind) {
     Function.prototype.bind = function (oThis) {
         if (typeof this !== "function") {
