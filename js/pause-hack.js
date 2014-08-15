@@ -1,7 +1,1 @@
-$(this).on('hidden.bs.modal', function() {
-    //removes and readds link to close video when modal is closed
-    var $frame = $('iframe');
-    var vidsrc = $frame.attr('src');
-    $frame.attr('src','');
-    $frame.attr('src', vidsrc);
-});
+$("#myModal1").on("hidden.bs.modal",function(){var a=$("iframe#close1"),b=a.attr("src");a.attr("src",""),a.attr("src",b)}),$("#myModal2").on("hidden.bs.modal",function(){var a=$("iframe#close2"),b=a.attr("src");a.attr("src",""),a.attr("src",b)}),$("#myModal3").on("hidden.bs.modal",function(){var a=$("iframe#close3"),b=a.attr("src");a.attr("src",""),a.attr("src",b)}),$("#myModal4").on("hidden.bs.modal",function(){var a=$("iframe#close4"),b=a.attr("src");a.attr("src",""),a.attr("src",b)}),$("#myModal5").on("hidden.bs.modal",function(){var a=$("iframe#close5"),b=a.attr("src");a.attr("src",""),a.attr("src",b)}),$("#myModal6").on("hidden.bs.modal",function(){var a=$("iframe#close6"),b=a.attr("src");a.attr("src",""),a.attr("src",b)});
