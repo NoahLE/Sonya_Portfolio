@@ -7,10 +7,6 @@ A Minimal Portfolio Website
 <h4>Tools</h4>
 <p>HTML, CSS, and JavaScript</p>
 <h4>Links</h4>
-    <a href="http://www.sonyaedelman.com" target="_blank">
-        <i class="fa fa-file-code-o"></i> See the site
-    </a>
+    <a href="http://www.sonyaedelman.com">See the site</a>
     <br/>
-    <a href="https://github.com/DigitalMockingbird/Sonya_Portfolio" target="_blank">
-       <i class="fa fa-github-alt"></i> Check out the repo
-    </a>
+    <a href="https://github.com/DigitalMockingbird/Sonya_Portfolio">Check out the repo</a>
