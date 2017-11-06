@@ -1,13 +1,23 @@
 A Minimal Portfolio Website
 ============================
 
-<h4>Summary</h4>
-<p>A minimal portfolio website I made for a client.</p>
-<p>I used this project as an excuse to learn about Grunt, Modernizr, and SmoothScroll.js</p>
+## A portfolio website
 
-<h4>Tools</h4>
-<p>HTML, CSS, and JavaScript</p>
+This is a website built using jQuery and Bootstrap. It's main purpose was to showcase demo reels and videos. It includes a landing page, video portfolio section, and a contact and resume section.
 
-<h4>Links</h4>
-<p>Check out the <a href="http://www.sonyaedelman.com">live website</a></p>
+---
+
+### Landing section
+
+![home-page](portfolio-landing.png)
+
+### Videos section
+
+![videos-page](portfolio-videos.png)
+
+---
+
+## Tools and libraries
+<p>HTML, CSS, Grunt, Modernizr, SmoothScroll.js, jQuery, and JavaScript</p>
+
 
